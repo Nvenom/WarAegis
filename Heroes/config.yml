@@ -56,7 +56,7 @@ healthbar:
   health-per-bar: 20
   display-entity-health: true
 properties:
-  storage-type: yml
+  storage-type: sql
   economy: true
   debug: false
   enchant-exp-mult: 3
@@ -75,7 +75,7 @@ database:
   url: localhost
   port: '3306'
   username: mc37182
-  password: 183ae360ed
+  password: 6ff8dd9efb
 bed:
   enabled: true
   interval: 15

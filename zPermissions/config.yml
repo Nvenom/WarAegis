@@ -16,7 +16,7 @@ database:
   username: mc37182
   isolation: SERIALIZABLE
   driver: com.mysql.jdbc.Driver
-  password: 183ae360ed
+  password: 6ff8dd9efb
   url: jdbc:mysql://localhost:3306/mc37182
 
 # Whether region-based permissions are enabled. Requires a region plugin such
