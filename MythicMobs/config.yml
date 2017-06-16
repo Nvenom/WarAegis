@@ -66,8 +66,8 @@ Configuration:
       ShowXPMessage: true
       XPMessageFormat: You receive <drops.xp> experience for slaying <mob.name>
     McMMO:
-      Enabled: true
-      ShowXPMessage: true
+      Enabled: false
+      ShowXPMessage: false
       XPMessageFormat: You receive <drops.xp> experience for slaying <mob.name>
     SkillAPI:
       Enabled: true

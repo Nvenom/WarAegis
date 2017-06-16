@@ -25,25 +25,22 @@ base-attributes:
 permitted-armor: 
 - LEATHER
 permitted-weapon:
-- WOOD
-- STONE
+- WOOD_PICKAXE
+- STONE_PICKAXE
 - IRON_PICKAXE
+- GOLD_PICKAXE
+- DIAMOND_PICKAXE
+- WOOD_AXE
+- STONE_PAXE
+- IRON_AXE
+- GOLD_AXE
+- DIAMOND_AXE
+- WOOD_SWORD
+- STONE_SWORD
 - IRON_SWORD
 - GOLD_SWORD
 - DIAMOND_SWORD
 - BOW
-item-damage:
-  IRON_SWORD: 6
-  GOLD_SWORD: 7
-  DIAMOND_SWORD: 8
-item-damage-level:
-  IRON_SWORD: 0.1
-  GOLD_SWORD: 0.15
-  DIAMOND_SWORD: 0.2
-projectile-damage:
-    ARROW: 5
-projectile-damage-level:
-    ARROW: 0.1
 permitted-skills:
     Sneak:
         level: 1

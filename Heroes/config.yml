@@ -70,12 +70,12 @@ properties:
   check-equipment-weight: false
 database:
   type: mysql
-  db: test
+  db: mc37182
   poolsize: 10
   url: localhost
   port: '3306'
-  username: test
-  password: test
+  username: mc37182
+  password: 183ae360ed
 bed:
   enabled: true
   interval: 15

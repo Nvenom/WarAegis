@@ -13,11 +13,11 @@ database-read-only: false
 # Settings for database (if enabled). This used to be in bukkit.yml before
 # Minecraft 1.12.
 database:
-  username: us3r
+  username: mc37182
   isolation: SERIALIZABLE
-  driver: org.sqlite.JDBC
-  password: passw0rd
-  url: jdbc:sqlite:plugins/zPermissions/zPermissions.db
+  driver: com.mysql.jdbc.Driver
+  password: 183ae360ed
+  url: jdbc:mysql://localhost:3306/mc37182
 
 # Whether region-based permissions are enabled. Requires a region plugin such
 # as WorldGuard or Residence. Setting this to false will save some processing
