@@ -4,7 +4,6 @@
 SkeletonKingSword:
   Id: 276
   Data: 0
-  Damage: 50
   Display: '&3Greatsword of the Skeleton King'
   Lore:
   - '&6A powerful sword used by'
@@ -17,6 +16,7 @@ SkeletonKingSword:
     MainHand:
       Health: 10
       MovementSpeed: 0.1
+      Damage: 50
 KingsCrown:
   Id: 314
   Data: 0

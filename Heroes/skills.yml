@@ -585,13 +585,13 @@ Backstab:
   - IRON_SWORD
   - GOLD_SWORD
   - DIAMOND_SWORD
-  backstab-chance: -1.0
+  backstab-chance: 1
   backstab-bonus: 0.05
   backstab-bonus-increase-per-dexterity: 0.04125
-  ambush-chance: -1.0
+  ambush-chance: 1
   ambush-bonus: 0.1
   ambush-bonus-increase-per-dexterity: 0.06375
-  allow-vanilla-sneaking: false
+  allow-vanilla-sneaking: true
 Inversion:
   use-text: §7[§2Skill§7] %hero% used %skill% on %target%!
   max-distance: 15

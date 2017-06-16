@@ -33,7 +33,7 @@ AngrySludge:
   Health: 100
   Damage: 2
   Options:
-    Size: 20
+    Size: 5
     MovementSpeed: 0.1
     PreventSlimeSplit: true
     PreventOtherDrops: true
@@ -44,7 +44,7 @@ AngrySludge:
 SkeletonKing:
   Type: WITHER_SKELETON
   Display: '&6Skeleton King'
-  Health: 500
+  Health: 300
   Damage: 10
   Skills:
   - message{cooldown=20;m="<mob.name><&co> None may challenge the Skeleton King!"} @PlayersInRadius{r=40} ~onCombat >0 0.2
@@ -64,7 +64,7 @@ SkeletonKing:
 SkeletalMinion:
   Type: SKELETON
   Display: '&2Skeletal Minion'
-  Health: 10
+  Health: 30
   Damage: 2
   Options:
     MovementSpeed: 0.1
