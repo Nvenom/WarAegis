@@ -28,9 +28,9 @@ experience-sources:
 permission-skills:
 base-max-health: 20
 max-health-per-level: 0.1
-base-max-mana: 75
+base-max-mana: 1000
 max-mana-per-level: 2
-base-mana-regen: 1
+base-mana-regen: 1000
 mana-regen-per-level: .05
 expmodifier: 1.0
 item-damage:

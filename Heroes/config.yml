@@ -97,7 +97,7 @@ bonus:
   message: Bonus experience time is enabled!
 hats:
   level: 1
-  enabled: false
+  enabled: true
 features:
   item-roll:
     enabled: true

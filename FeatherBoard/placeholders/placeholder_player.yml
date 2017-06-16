@@ -1,0 +1,12 @@
+## --------------------------------------- ##
+## Player Placeholders
+## --------------------------------------- ##
+
+## Do not edit this config version
+config: 1
+
+firstplayed: # %firstplayed% Date formatting
+  format: 'dd MMMM yyyy'
+  
+lastplayed: # %lastplayed% Date formatting
+  format: 'dd MMMM yyyy'

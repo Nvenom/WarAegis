@@ -4,6 +4,7 @@
 SkeletonKingSword:
   Id: 276
   Data: 0
+  Damage: 50
   Display: '&3Greatsword of the Skeleton King'
   Lore:
   - '&6A powerful sword used by'
