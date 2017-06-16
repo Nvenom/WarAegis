@@ -1,0 +1,81 @@
+sealatern:
+  material: SEA_LANTERN
+  lightlevel: 15
+  flags:
+  - update:false:true
+  - delete_light:false
+lavabucket:
+  material: LAVA_BUCKET
+  lightlevel: 15
+  flags:
+  - update:false:true
+  - delete_light:false
+glowstone:
+  material: GLOWSTONE
+  lightlevel: 15
+  flags:
+  - update:false:true
+  - delete_light:false
+jack:
+  material: ' JACK_O_LANTERN'
+  lightlevel: 15
+  flags:
+  - update:false:true
+  - delete_light:false
+redstonelamp:
+  material: REDSTONE_LAMP_ON
+  lightlevel: 15
+  flags:
+  - update:false:true
+  - delete_light:false
+torch:
+  material: TORCH
+  lightlevel: 14
+  flags:
+  - update:false:true
+  - delete_light:false
+  - play_effect:smoke:0:1
+  - play_effect:flame:0:1
+endrod:
+  material: END_ROD
+  lightlevel: 14
+  flags:
+  - update:false:true
+  - delete_light:false
+furnace:
+  material: BURNING_FURNACE
+  lightlevel: 13
+  flags:
+  - update:false:true
+  - delete_light:false
+redstoneore:
+  material: GLOWING_REDSTONE_ORE
+  lightlevel: 9
+  flags:
+  - update:false:true
+  - delete_light:false
+redstonetorch:
+  material: REDSTONE_TORCH_ON
+  lightlevel: 9
+  flags:
+  - update:false:true
+  - delete_light:false
+enderchest:
+  material: ENDER_CHEST
+  lightlevel: 6
+  flags:
+  - update:false:true
+  - delete_light:false
+testItem:
+  material: BEDROCK
+  lightlevel: 10
+  displayname: DEV_TEST
+  flags:
+  - entity:PLAYER:DROPPED_ITEM
+  - permission:lightsource.testItem
+  - world:world:world_nether:world_the_end
+  - update:true:true
+  - play_effect:ENDER_SIGNAL:0:1
+  - play_effect:HEART:0:1
+  - play_effect:MOBSPAWNER_FLAMES:0:1
+  - delete_light:true

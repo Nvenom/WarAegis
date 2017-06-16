@@ -1,0 +1,18 @@
+# LightSource v3.1.0 Configuration
+# by BeYkeRYkt
+version: 1
+add-to-async-lighting-queue: false
+updater:
+  enable: true
+  repo: BeYkeRYkt/LightSource
+  update-delay-ticks: 40
+  view-changelog: false
+sources:
+  update-delay-ticks: 10
+  search:
+    search-players: true
+    search-entities: true
+    search-burning-entities: true
+    search-items: true
+    search-radius: 20
+    search-delay-ticks: 5

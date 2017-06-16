@@ -1,0 +1,44 @@
+name: Admin
+default: false
+wildcard-permission: false
+primary: true
+secondary: false
+description: The Admin Class Path
+#Runs a cmd as console or not on selection of this class.
+run-command:
+  as-console: true
+  #you can have multiple cmds run
+  #use {player_name} for plugins who dont support @p, etc.
+  command:
+    -  give @p diamond
+permitted-armor:
+- ALL
+permitted-weapon:
+- ALL
+permitted-skills:
+  ALL: true
+experience-sources:
+- KILLING
+- CRAFTING
+- MINING
+- LOGGING
+- FARMING
+- QUESTING
+- EXTERNAL
+permission-skills:
+base-max-health: 20
+max-health-per-level: 0.1
+base-max-mana: 75
+max-mana-per-level: 2
+base-mana-regen: 1
+mana-regen-per-level: .05
+expmodifier: 1.0
+item-damage:
+  air: 1
+item-damage-level:
+projectile-damage:
+  Arrow: 3
+projectile-damage-level:
+expLoss: 0
+tier: 0
+recipes: [ default ]
