@@ -1,0 +1,38 @@
+main-page:
+  close-on-player-move: false
+  close-on-player-item-switch: false
+  components:
+  
+    label-component:                                      #This is the id of the GUI Component. It must be distinct among all the other GUI Components in the containing GUI page
+      type: label                                                 #Specify the 'type' property as 'label' to create a label
+      label-distance: 6                                           #How many blocks away the label for this component will be. Default(Button: 15, Item: 6, Entity: 8, Label: 10. Min: 5, Max: 20)
+      text:                                                       #The list text to be displayed by this label component
+        - "Your about to switch classes,"                #You can use PlaceholderAPI placeholders to display customized messages
+        - "Are you sure you want to switch?"                       #Add %scroll% to the beginning of your text to make that line of text scroll
+      position:                                                   #Take a look at the Coordinate System section for more information on position. (Default: x: 0, y:0)
+        x: 0
+        y: 0.5
+      
+    yes-btn:                                                   #id of the button component. It must be distinct among all the other GUI Components in the containing GUI page.
+      type: button                                      #When a button is hovered over, how far the label of the button zooms in (Min: 0, Max: 6, Default: 4)
+      always-show-label: false                                      #Specify whether to always show the button label or only when the player hovers over it (Default: false)
+      icon: yes.png                                          #Icons are located in plugins/HoloGUI/images. You can drop your own images in this folder to be displayed on the button.Accepts .jpg, .png, and .gif image formats.
+      mini: false                                                  #Button components come in two sizes: regular size (18x18px) and mini (9x9px) (Default: false)
+      onclick: ccon                                      #This is the command to run when the player clicks the button. You can insert PlaceholderAPI placeholders into the command
+      onclick-sound: UI_BUTTON_CLICK                               #The sound to play when the button is clicked. Make sure to choose the correct sound for your Minecraft version. SoundTypes for v1.8 and v1.9 are listed above (Default: none)
+      symmetrical: false                                           #Whether or not the image is symmetrical. This is used to get rid of spacing around the image. (Default: false)
+      position:                                                    #Take a look at the Coordinate System section for more information on position. (Default: x: 0, y:0)
+        x: -0.2
+        y: 0
+        
+    no-btn:                                                   #id of the button component. It must be distinct among all the other GUI Components in the containing GUI page.
+      type: button                                      #When a button is hovered over, how far the label of the button zooms in (Min: 0, Max: 6, Default: 4)
+      always-show-label: false                                     #Specify whether to always show the button label or only when the player hovers over it (Default: false)
+      icon: no.png                                          #Icons are located in plugins/HoloGUI/images. You can drop your own images in this folder to be displayed on the button.Accepts .jpg, .png, and .gif image formats.
+      mini: false                                                  #Button components come in two sizes: regular size (18x18px) and mini (9x9px) (Default: false)
+      onclick: ccan                                       #This is the command to run when the player clicks the button. You can insert PlaceholderAPI placeholders into the command
+      onclick-sound: UI_BUTTON_CLICK                               #The sound to play when the button is clicked. Make sure to choose the correct sound for your Minecraft version. SoundTypes for v1.8 and v1.9 are listed above (Default: none)
+      symmetrical: false                                           #Whether or not the image is symmetrical. This is used to get rid of spacing around the image. (Default: false)
+      position:                                                    #Take a look at the Coordinate System section for more information on position. (Default: x: 0, y:0)
+        x: 0.2
+        y: 0

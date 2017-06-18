@@ -1,0 +1,63 @@
+main-page:
+  open-with-item-id: DIAMOND_AXE
+  open-on-login: true
+  close-on-player-move: false
+  close-on-player-item-switch: false
+  components:
+  
+    close-btn:
+      type: button
+      mini: true
+      onclick-sound: UI_BUTTON_CLICK
+      position:
+        x: 1
+        y: 1
+      label: Close Menu
+      symmetrical: true
+      icon: x-red.gif
+      onclick: hg close
+      
+    rogue-btn:                                                   #id of the button component. It must be distinct among all the other GUI Components in the containing GUI page.
+      type: button                                                 #Specify the 'type' property as 'button' to create a button
+      label: Rogue                                               #Text label shown above the button
+      label-distance: 6                                            #How many blocks away the label for this component will be. Default(Button: 15, Item: 6, Entity: 8, Label: 10. Min: 5, Max: 20)
+      label-zoom-distance: 4                                       #When a button is hovered over, how far the label of the button zooms in (Min: 0, Max: 6, Default: 4)
+      always-show-label: true                                      #Specify whether to always show the button label or only when the player hovers over it (Default: false)
+      icon: Icons8_32.png                                          #Icons are located in plugins/HoloGUI/images. You can drop your own images in this folder to be displayed on the button.Accepts .jpg, .png, and .gif image formats.
+      mini: false                                                  #Button components come in two sizes: regular size (18x18px) and mini (9x9px) (Default: false)
+      onclick: hg open class                                       #This is the command to run when the player clicks the button. You can insert PlaceholderAPI placeholders into the command
+      onclick-sound: UI_BUTTON_CLICK                               #The sound to play when the button is clicked. Make sure to choose the correct sound for your Minecraft version. SoundTypes for v1.8 and v1.9 are listed above (Default: none)
+      symmetrical: false                                           #Whether or not the image is symmetrical. This is used to get rid of spacing around the image. (Default: false)
+      position:                                                    #Take a look at the Coordinate System section for more information on position. (Default: x: 0, y:0)
+        x: -0.5
+        y: 0
+        
+    mage-btn:                                                   #id of the button component. It must be distinct among all the other GUI Components in the containing GUI page.
+      type: button                                                 #Specify the 'type' property as 'button' to create a button
+      label: Mage                                                  #Text label shown above the button
+      label-distance: 6                                           #How many blocks away the label for this component will be. Default(Button: 15, Item: 6, Entity: 8, Label: 10. Min: 5, Max: 20)
+      label-zoom-distance: 4                                       #When a button is hovered over, how far the label of the button zooms in (Min: 0, Max: 6, Default: 4)
+      always-show-label: true                                      #Specify whether to always show the button label or only when the player hovers over it (Default: false)
+      icon: Icon.1_70.png                                          #Icons are located in plugins/HoloGUI/images. You can drop your own images in this folder to be displayed on the button.Accepts .jpg, .png, and .gif image formats.
+      mini: false                                                  #Button components come in two sizes: regular size (18x18px) and mini (9x9px) (Default: false)
+      onclick: classmage                                     #This is the command to run when the player clicks the button. You can insert PlaceholderAPI placeholders into the command
+      onclick-sound: UI_BUTTON_CLICK                               #The sound to play when the button is clicked. Make sure to choose the correct sound for your Minecraft version. SoundTypes for v1.8 and v1.9 are listed above (Default: none)
+      symmetrical: false                                           #Whether or not the image is symmetrical. This is used to get rid of spacing around the image. (Default: false)
+      position:                                                    #Take a look at the Coordinate System section for more information on position. (Default: x: 0, y:0)
+        x: 0
+        y: 0
+        
+    warrior-btn:                                                   #id of the button component. It must be distinct among all the other GUI Components in the containing GUI page.
+      type: button                                                 #Specify the 'type' property as 'button' to create a button
+      label: Warrior                                               #Text label shown above the button
+      label-distance: 6                                            #How many blocks away the label for this component will be. Default(Button: 15, Item: 6, Entity: 8, Label: 10. Min: 5, Max: 20)
+      label-zoom-distance: 4                                       #When a button is hovered over, how far the label of the button zooms in (Min: 0, Max: 6, Default: 4)
+      always-show-label: true                                      #Specify whether to always show the button label or only when the player hovers over it (Default: false)
+      icon: Icon.2_43.png                                          #Icons are located in plugins/HoloGUI/images. You can drop your own images in this folder to be displayed on the button.Accepts .jpg, .png, and .gif image formats.
+      mini: false                                                  #Button components come in two sizes: regular size (18x18px) and mini (9x9px) (Default: false)
+      onclick: hg open class                                       #This is the command to run when the player clicks the button. You can insert PlaceholderAPI placeholders into the command
+      onclick-sound: UI_BUTTON_CLICK                               #The sound to play when the button is clicked. Make sure to choose the correct sound for your Minecraft version. SoundTypes for v1.8 and v1.9 are listed above (Default: none)
+      symmetrical: false                                           #Whether or not the image is symmetrical. This is used to get rid of spacing around the image. (Default: false)
+      position:                                                    #Take a look at the Coordinate System section for more information on position. (Default: x: 0, y:0)
+        x: 0.5
+        y: 0
