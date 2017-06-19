@@ -1,0 +1,73 @@
+configVersion: 2
+stats:
+  timeLastPlayed: {}
+savePlayer:
+  oldGameMode: CREATIVE
+  oldFireTicks: -20
+  oldFoodLevel: 20
+  oldMaxHealth: 68.4000015258789
+  oldHealth: 68.4000015258789
+  oldExp: 0.92
+  oldLvl: 2
+  oldArmor:
+  - null
+  - null
+  - null
+  - null
+  oldInventory:
+  - ==: org.bukkit.inventory.ItemStack
+    type: WOOD_AXE
+  - ==: org.bukkit.inventory.ItemStack
+    type: BARRIER
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  oldOffHand:
+    ==: org.bukkit.inventory.ItemStack
+    type: AIR
+    amount: 0
+  oldLocation:
+    ==: org.bukkit.Location
+    world: Waraegis
+    x: 3544.105234454037
+    y: 7.0
+    z: -5400.950281278096
+    pitch: 13.649961
+    yaw: -4.3638167
+  oldPotionEffects: []

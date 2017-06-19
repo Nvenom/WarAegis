@@ -1,0 +1,24 @@
+quarry_guard:
+  Type: SKELETON
+  Display: '[<mob.level>]&cQuarry Guard&r'
+  Health: 1
+  Damage: 1
+  Armor: 1
+  Faction: aleco_kingdom
+  Equipment:
+    - stone_button:4
+    - bow:0
+  AIGoalSelectors:
+    - 0 clear
+    - 1 arrowattack
+    - 2 randomstroll
+    - 3 lookatplayers
+    - 4 opendoors
+    - 5 randomlookaround
+  AITargetSelectors:
+    - 0 clear
+    - 1 players
+    - 2 monsters
+  Disguise:
+    Type: player
+    Skin: 'quarry_guard'

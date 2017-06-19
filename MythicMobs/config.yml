@@ -6,7 +6,7 @@ Configuration:
   General:
     AllowMetrics: true
     CheckForUpdates: true
-    CompatibilityMode: false
+    CompatibilityMode: true
     DebugLevel: 0
     ErrorLogging: true
     UseVolatileFeatures: true
@@ -18,7 +18,7 @@ Configuration:
     CleanupInterval: 600
   Components:
     CustomSpawners: true
-    RandomSpawning: true
+    RandomSpawning: false
   Mobs:
     DespawnByDefault: true
     EnableAIModifiers: true
@@ -27,7 +27,7 @@ Configuration:
     EnablePlayerFactions: true
     EnableLegacySkills: true
     KillMessagePrefix: ''
-    PreventOtherDropsByDefault: false
+    PreventOtherDropsByDefault: true
     ShowHealth:
       Radius: 25
       Format: <mob.name> - <mob.php> (<mob.hp> / <mob.mhp>)
@@ -70,7 +70,7 @@ Configuration:
       ShowXPMessage: false
       XPMessageFormat: You receive <drops.xp> experience for slaying <mob.name>
     SkillAPI:
-      Enabled: true
+      Enabled: false
       ShowXPMessage: true
       XPMessageFormat: You receive <drops.xp> experience for slaying <mob.name>
     Vault:

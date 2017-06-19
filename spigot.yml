@@ -29,11 +29,11 @@ settings:
   netty-threads: 4
   attribute:
     maxHealth:
-      max: 2048.0
+      max: 99999.0
     movementSpeed:
       max: 2048.0
     attackDamage:
-      max: 2048.0
+      max: 99999.0
   debug: false
 commands:
   tab-complete: 0
@@ -59,7 +59,7 @@ stats:
 world-settings:
   default:
     verbose: true
-    mob-spawn-range: 4
+    mob-spawn-range: 15
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -76,10 +76,10 @@ world-settings:
       monsters: 32
       misc: 16
     entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
+      players: 64
+      animals: 64
+      monsters: 64
+      misc: 64
       other: 64
     ticks-per:
       hopper-transfer: 8
@@ -91,13 +91,13 @@ world-settings:
     seed-village: 10387312
     seed-feature: 14357617
     hunger:
-      jump-walk-exhaustion: 0.05
-      jump-sprint-exhaustion: 0.2
-      combat-exhaustion: 0.1
-      regen-exhaustion: 6.0
-      swim-multiplier: 0.01
-      sprint-multiplier: 0.1
-      other-multiplier: 0.0
+      jump-walk-exhaustion: 0
+      jump-sprint-exhaustion: 0
+      combat-exhaustion: 0
+      regen-exhaustion: 0
+      swim-multiplier: 0
+      sprint-multiplier: 0
+      other-multiplier: 0
     max-tnt-per-tick: 100
     max-tick-time:
       tile: 50

@@ -1,0 +1,87 @@
+18/06/2017 01:55:38 [SEVERE] Error while loading plugins/TopLite/lang/lang_en.yml!
+18/06/2017 01:55:38 [INFO] Loading messages ...
+18/06/2017 01:55:38 [INFO] Creating new file 'plugins/TopLite/lang/lang_en.yml'!
+18/06/2017 01:55:38 [INFO] Creating new file 'plugins/TopLite/data/plugindata.dat'!
+18/06/2017 01:55:38 [INFO] Loading language file: lang_en
+18/06/2017 01:55:38 [INFO] Initializing monitors ...
+18/06/2017 01:55:38 [INFO] Adding command 'top'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'reset'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'plugin'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'uploadlog'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'reload'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'uploadconfig'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'about'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'help'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'resetconfig'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'changelog'
+18/06/2017 01:55:38 [DEBUG] 	Adding sub command 'permissions'
+18/06/2017 06:51:00 [INFO] Loading language file: lang_en
+18/06/2017 06:51:00 [INFO] Loading messages ...
+18/06/2017 06:51:00 [INFO] Initializing monitors ...
+18/06/2017 06:51:00 [INFO] Adding command 'top'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'plugin'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'uploadlog'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'uploadconfig'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'reload'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'reset'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'changelog'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'about'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'resetconfig'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'help'
+18/06/2017 06:51:00 [DEBUG] 	Adding sub command 'permissions'
+18/06/2017 23:49:22 [INFO] Loading messages ...
+18/06/2017 23:49:22 [INFO] Initializing monitors ...
+18/06/2017 23:49:22 [INFO] Loading language file: lang_en
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'reset'
+18/06/2017 23:49:23 [INFO] Adding command 'top'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'plugin'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'uploadconfig'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'uploadlog'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'reload'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'about'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'changelog'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'help'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'permissions'
+18/06/2017 23:49:23 [DEBUG] 	Adding sub command 'resetconfig'
+19/06/2017 00:03:50 [INFO] Loading language file: lang_en
+19/06/2017 00:03:50 [INFO] Loading messages ...
+19/06/2017 00:03:50 [INFO] Initializing monitors ...
+19/06/2017 00:03:50 [INFO] Adding command 'top'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'reset'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'uploadlog'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'uploadconfig'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'reload'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'plugin'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'about'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'resetconfig'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'changelog'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'help'
+19/06/2017 00:03:50 [DEBUG] 	Adding sub command 'permissions'
+19/06/2017 00:20:44 [INFO] Loading messages ...
+19/06/2017 00:20:44 [INFO] Loading language file: lang_en
+19/06/2017 00:20:44 [INFO] Initializing monitors ...
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'plugin'
+19/06/2017 00:20:45 [INFO] Adding command 'top'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'reset'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'reload'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'uploadconfig'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'about'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'permissions'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'uploadlog'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'changelog'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'resetconfig'
+19/06/2017 00:20:45 [DEBUG] 	Adding sub command 'help'
+19/06/2017 00:57:19 [INFO] Loading language file: lang_en
+19/06/2017 00:57:19 [INFO] Loading messages ...
+19/06/2017 00:57:19 [INFO] Initializing monitors ...
+19/06/2017 00:57:19 [INFO] Adding command 'top'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'plugin'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'reset'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'reload'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'uploadlog'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'resetconfig'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'changelog'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'uploadconfig'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'permissions'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'about'
+19/06/2017 00:57:19 [DEBUG] 	Adding sub command 'help'

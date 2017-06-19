@@ -3,13 +3,167 @@
 # vanilla mobs. Most MythicMobs options will work here, including
 # skills and effects! **Despawn: FALSE does not work, though.**
 CAVE_SPIDER:
-  Health: 30
-  Damage: 7
-WITHER_SKELETON:
-  Health: 50
-  Damage: 10
-GIANT:
-  Health: 1000
-  Damage: 20
   Skills:
-  - potion{type=POISON;duration=100;lvl=1} @target ~onAttack
+  - remove @self ~onSpawn
+WITHER_SKELETON:
+  Skills:
+  - remove @self ~onSpawn
+GIANT:
+  Skills:
+  - remove @self ~onSpawn
+CREEPER:
+  Skills:
+  - remove @self ~onSpawn
+BABY_PIG_ZOMBIE:
+  Skills:
+  - remove @self ~onSpawn
+BABY_PIG_ZOMBIE_VILLAGER:
+  Skills:
+  - remove @self ~onSpawn
+BABY_ZOMBIE:
+  Skills:
+  - remove @self ~onSpawn
+BABY_ZOMBIE_VILLAGER:
+  Skills:
+  - remove @self ~onSpawn
+BAT:
+  Skills:
+  - remove @self ~onSpawn
+BLAZE:
+  Skills:
+  - remove @self ~onSpawn
+CAVE_SPIDER:
+  Skills:
+  - remove @self ~onSpawn
+CHICKEN:
+  Skills:
+  - remove @self ~onSpawn
+COW:
+  Skills:
+  - remove @self ~onSpawn
+CREEPER:
+  Skills:
+  - remove @self ~onSpawn
+ELDER_GUARDIAN:
+  Skills:
+  - remove @self ~onSpawn
+ENDER_DRAGON:
+  Skills:
+  - remove @self ~onSpawn
+ENDERMAN:
+  Skills:
+  - remove @self ~onSpawn
+ENDERMITE:
+  Skills:
+  - remove @self ~onSpawn
+EVOKER:
+  Skills:
+  - remove @self ~onSpawn
+GHAST:
+  Skills:
+  - remove @self ~onSpawn
+GIANT:
+  Skills:
+  - remove @self ~onSpawn
+GUARDIAN:
+  Skills:
+  - remove @self ~onSpawn
+HORSE:
+  Skills:
+  - remove @self ~onSpawn
+HUSK:
+  Skills:
+  - remove @self ~onSpawn
+IRON_GOLEM:
+  Skills:
+  - remove @self ~onSpawn
+LLAMA:
+  Skills:
+  - remove @self ~onSpawn
+MAGMA_CUBE:
+  Skills:
+  - remove @self ~onSpawn
+MUSHROOM_COW:
+  Skills:
+  - remove @self ~onSpawn
+OCELOT:
+  Skills:
+  - remove @self ~onSpawn
+PIG:
+  Skills:
+  - remove @self ~onSpawn
+PIG_ZOMBIE:
+  Skills:
+  - remove @self ~onSpawn
+PIG_ZOMBIE_VILLAGER:
+  Skills:
+  - remove @self ~onSpawn
+PRIMED_TNT:
+  Skills:
+  - remove @self ~onSpawn
+POLAR_BEAR:
+  Skills:
+  - remove @self ~onSpawn
+RABBIT:
+  Skills:
+  - remove @self ~onSpawn
+SHEEP:
+  Skills:
+  - remove @self ~onSpawn
+SILVERFISH:
+  Skills:
+  - remove @self ~onSpawn
+SKELETON:
+  Skills:
+  - remove @self ~onSpawn
+SKELETON_HORSE:
+  Skills:
+  - remove @self ~onSpawn
+SHULKER:
+  Skills:
+  - remove @self ~onSpawn
+SLIME:
+  Skills:
+  - remove @self ~onSpawn
+SNOWMAN:
+  Skills:
+  - remove @self ~onSpawn
+SPIDER:
+  Skills:
+  - remove @self ~onSpawn
+STRAY:
+  Skills:
+  - remove @self ~onSpawn
+SQUID:
+  Skills:
+  - remove @self ~onSpawn
+VEX:
+  Skills:
+  - remove @self ~onSpawn
+VILLAGER:
+  Skills:
+  - remove @self ~onSpawn
+VINDICATOR:
+  Skills:
+  - remove @self ~onSpawn
+WITCH:
+  Skills:
+  - remove @self ~onSpawn
+WITHER:
+  Skills:
+  - remove @self ~onSpawn
+WITHER_SKELETON:
+  Skills:
+  - remove @self ~onSpawn
+WOLF:
+  Skills:
+  - remove @self ~onSpawn
+ZOMBIE:
+  Skills:
+  - remove @self ~onSpawn
+ZOMBIE_HORSE:
+  Skills:
+  - remove @self ~onSpawn
+ZOMBIE_VILLAGER:
+  Skills:
+  - remove @self ~onSpawn
