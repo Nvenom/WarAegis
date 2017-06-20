@@ -6,14 +6,6 @@ parents:
 primary: true
 secondary: false
 description: The trickster of the wilds.
-#Runs a cmd as console or not on selection of this class.
-run-command:
-  as-console: true
-  #you can have multiple cmds run
-  #use {player_name} for plugins who dont support @p, etc.
-  command:
-    -  give @p diamond
-    -  mm items give {PLAYER_NAME} KingsCrown
 base-attributes:
     STRENGTH: 5
     CONSTITUTION: 2
@@ -30,11 +22,6 @@ permitted-weapon:
 - IRON_PICKAXE
 - GOLD_PICKAXE
 - DIAMOND_PICKAXE
-- WOOD_AXE
-- STONE_PAXE
-- IRON_AXE
-- GOLD_AXE
-- DIAMOND_AXE
 - WOOD_SWORD
 - STONE_SWORD
 - IRON_SWORD
@@ -44,22 +31,19 @@ permitted-weapon:
 permitted-skills:
     Sneak:
         level: 1
-    Jump:
-        level: 20
     AssassinsBlade: 
         level: 10
         mana: 15
     Mark:
         level: 5
         mana: 5
-        reagent: BED
-        reagent-cost: 1
     Recall:
         level: 5
         mana: 40
         cooldown: 60000
-        health-cost: 10
         delay: 5000
+    Jump:
+        level: 20
     EscapeArtist:
         level: 25
         mana: 30
